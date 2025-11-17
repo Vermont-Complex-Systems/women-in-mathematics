@@ -111,10 +111,3 @@ def join_to_csv() -> dg.MaterializeResult:
             "num_parents": len(parents),
         }
     )
-
-
-@dg.definitions
-def join_definitions():
-    return dg.Definitions(
-        assets=[join_to_csv],
-    )

@@ -55,10 +55,3 @@ def extract_text() -> dg.MaterializeResult:
             "num_pdfs_processed": len(pdf_files),
         }
     )
-
-
-@dg.definitions
-def extract_definitions():
-    return dg.Definitions(
-        assets=[extract_text],
-    )

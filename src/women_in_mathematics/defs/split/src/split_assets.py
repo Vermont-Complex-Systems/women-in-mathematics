@@ -102,10 +102,3 @@ def split_pdfs() -> dg.MaterializeResult:
             "num_pdfs_created": pdfs_created,
         }
     )
-
-
-@dg.definitions
-def split_definitions():
-    return dg.Definitions(
-        assets=[split_pdfs],
-    )

@@ -152,10 +152,3 @@ def parse_biographies(openai_resource: OpenAIResource) -> dg.MaterializeResult:
             "num_errors": len(errors),
         }
     )
-
-
-@dg.definitions
-def parse_definitions():
-    return dg.Definitions(
-        assets=[parse_biographies],
-    )

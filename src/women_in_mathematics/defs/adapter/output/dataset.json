@@ -1,0 +1,2876 @@
+{
+  "dataset_id": "women-in-math",
+  "name": "Women in Mathematics",
+  "specification_version": "0.0.1",
+  "description": "Biographical data of women mathematicians from 1800s-1900s",
+  "authors": [
+    {
+      "entity_id": "wikidata:Q102198435",
+      "entity_ids": [
+        "local:women-in-math:sister_mary_nicholas_arnoldy"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Sister Mary Nicholas Arnoldy",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1985,
+        "birthplace": "Tipton, Kansas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q92278293",
+      "entity_ids": [
+        "local:women-in-math:beatrice_liberty_hagen"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Beatrice Liberty Hagen",
+      "biographical_data": {
+        "birth_year": 1899,
+        "death_year": 1987,
+        "birthplace": "Barton County, near Ellinwood, Kansas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q4767362",
+      "entity_ids": [
+        "local:women-in-math:anna_margaret_mullikin"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Anna Margaret Mullikin",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1975,
+        "birthplace": "Baltimore, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q11103473",
+      "entity_ids": [
+        "local:women-in-math:mary_frances_winston_newson"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Mary Frances Winston Newson",
+      "biographical_data": {
+        "birth_year": 1869,
+        "death_year": 1959,
+        "birthplace": "Forreston, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q95663131",
+      "entity_ids": [
+        "local:women-in-math:annie_louise_mackinnon_fitch"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Annie Louise MacKinnon Fitch",
+      "biographical_data": {
+        "birth_year": 1868,
+        "death_year": 1940,
+        "birthplace": "Woodstock, Ontario, Canada",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:r_lucile_anderson",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "R. Lucile Anderson",
+      "biographical_data": {
+        "birth_year": 1900,
+        "death_year": 1999,
+        "birthplace": "Jamestown, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q60400640",
+      "entity_ids": [
+        "local:women-in-math:margaret_gurney"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Margaret Gurney",
+      "biographical_data": {
+        "birth_year": 1908,
+        "death_year": 2002,
+        "birthplace": "Washington, D.C.",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q22096443",
+      "entity_ids": [
+        "local:women-in-math:florence_parthenia_lewis"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Florence Parthenia Lewis",
+      "biographical_data": {
+        "birth_year": 1877,
+        "death_year": 1964,
+        "birthplace": "Fort Scott, Kansas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:bess_marie_allen_eversull",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Bess Marie Allen (Eversull)",
+      "biographical_data": {
+        "birth_year": 1899,
+        "death_year": 1978,
+        "birthplace": "Elmwood Place, Ohio",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q86907028",
+      "entity_ids": [
+        "local:women-in-math:marie_johanna_weiss"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Marie Johanna Weiss",
+      "biographical_data": {
+        "birth_year": 1903,
+        "death_year": 1952,
+        "birthplace": "Eugene, California",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:nina_may_moore_alderton",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Nina May Moore (Alderton)",
+      "biographical_data": {
+        "birth_year": 1890,
+        "death_year": 1973,
+        "birthplace": "Berkeley Springs, West Virginia",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q93346059",
+      "entity_ids": [
+        "local:women-in-math:irene_price"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Irene Price",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1999,
+        "birthplace": "Parr, Indiana",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:esther_ober_mccormick_torrance",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Esther Ober McCormick Torrance",
+      "biographical_data": {
+        "birth_year": 1909,
+        "death_year": 1978,
+        "birthplace": "Fort Wayne, Indiana",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q64006395",
+      "entity_ids": [
+        "local:women-in-math:emily_kathryn_wyant"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Emily Kathryn Wyant",
+      "biographical_data": {
+        "birth_year": 1897,
+        "death_year": 1942,
+        "birthplace": "Ipava, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:emily_mccoy_pixley",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Emily McCoy Pixley",
+      "biographical_data": {
+        "birth_year": 1904,
+        "death_year": 2000,
+        "birthplace": "Knoxville, Tennessee",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q5701781",
+      "entity_ids": [
+        "local:women-in-math:helen_abbot_merrill"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Helen Abbot Merrill",
+      "biographical_data": {
+        "birth_year": 1864,
+        "death_year": 1949,
+        "birthplace": "Orange, New Jersey",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q79669189",
+      "entity_ids": [
+        "local:women-in-math:mabel_minerva_young"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Mabel Minerva Young",
+      "biographical_data": {
+        "birth_year": 1872,
+        "death_year": 1963,
+        "birthplace": "Worcester, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q28600206",
+      "entity_ids": [
+        "local:women-in-math:josephine_hughes_chanler"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Josephine Hughes Chanler",
+      "biographical_data": {
+        "birth_year": 1906,
+        "death_year": 1992,
+        "birthplace": "St. Louis, Missouri",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102188233",
+      "entity_ids": [
+        "local:women-in-math:bella_manel_greenfield"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Bella Manel Greenfield",
+      "biographical_data": {
+        "birth_year": 1915,
+        "death_year": 2010,
+        "birthplace": "New York City",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q11104429",
+      "entity_ids": [
+        "local:women-in-math:mildred_leonora_sanderson"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Mildred Leonora Sanderson",
+      "biographical_data": {
+        "birth_year": 1889,
+        "death_year": 1914,
+        "birthplace": "Waltham, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q93422080",
+      "entity_ids": [
+        "local:women-in-math:beulah_may_armstrong"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Beulah May Armstrong",
+      "biographical_data": {
+        "birth_year": 1895,
+        "death_year": 1965,
+        "birthplace": "Sterling, Kansas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:harriet_bonner_rees",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Harriet Bonner (Rees)",
+      "biographical_data": {
+        "birth_year": 1914,
+        "death_year": 1978,
+        "birthplace": "Mt. Morris, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102150195",
+      "entity_ids": [
+        "local:women-in-math:abba_verbeck_newton"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Abba Verbeck Newton",
+      "biographical_data": {
+        "birth_year": 1908,
+        "death_year": 1996,
+        "birthplace": "Ballston Spa, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mary_florence_curtis_graustein",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mary Florence Curtis Graustein",
+      "biographical_data": {
+        "birth_year": 1884,
+        "death_year": 1972,
+        "birthplace": "Westminster, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102155135",
+      "entity_ids": [
+        "local:women-in-math:margaret_buchanan_cole"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Margaret Buchanan Cole",
+      "biographical_data": {
+        "birth_year": 1885,
+        "death_year": 1959,
+        "birthplace": "Clinton, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:caroline_eustis_seely",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Caroline Eustis Seely",
+      "biographical_data": {
+        "birth_year": 1887,
+        "death_year": 1961,
+        "birthplace": "Delhi, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:martha_eldora_hathaway_williams",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Martha Eldora Hathaway Williams",
+      "biographical_data": {
+        "birth_year": 1914,
+        "death_year": 1989,
+        "birthplace": "Montclair, New Jersey",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q21176728",
+      "entity_ids": [
+        "local:women-in-math:elizabeth_buchanan_cowley"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Elizabeth Buchanan Cowley",
+      "biographical_data": {
+        "birth_year": 1874,
+        "death_year": 1945,
+        "birthplace": "Allegheny, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sister_mary_cleophas_garvin",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sister Mary Cleophas Garvin",
+      "biographical_data": {
+        "birth_year": 1899,
+        "death_year": 1990,
+        "birthplace": "Vickery, Ohio",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102155141",
+      "entity_ids": [
+        "local:women-in-math:olive_margaret_hughes"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Olive Margaret Hughes",
+      "biographical_data": {
+        "birth_year": 1899,
+        "death_year": 1936,
+        "birthplace": "London, England",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:dorothy_manning_smiley_little",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Dorothy Manning Smiley Little",
+      "biographical_data": {
+        "birth_year": 1909,
+        "death_year": 1988,
+        "birthplace": "Champaign, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:gertrude_stith_ketchum",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Gertrude Stith Ketchum",
+      "biographical_data": {
+        "birth_year": 1903,
+        "death_year": 1958,
+        "birthplace": "near Nunez, Georgia",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sallie_elizabeth_pence",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sallie Elizabeth Pence",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1989,
+        "birthplace": "Lexington, Kentucky",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102198458",
+      "entity_ids": [
+        "local:women-in-math:mary_elizabeth_haller"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Mary Elizabeth Haller",
+      "biographical_data": {
+        "birth_year": 1901,
+        "death_year": 1970,
+        "birthplace": "Cumberland, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:josephine_alberta_robinson_roe",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Josephine Alberta Robinson Roe",
+      "biographical_data": {
+        "birth_year": 1858,
+        "death_year": 1946,
+        "birthplace": "Meredith, New Hampshire",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q27178264",
+      "entity_ids": [
+        "local:women-in-math:grace_marie_bareis"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Grace Marie Bareis",
+      "biographical_data": {
+        "birth_year": 1875,
+        "death_year": 1962,
+        "birthplace": "Canal Winchester, Ohio",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102194454",
+      "entity_ids": [
+        "local:women-in-math:julia_may_dale"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Julia May Dale",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1936,
+        "birthplace": "Shelbyville, Kentucky",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q75100239",
+      "entity_ids": [
+        "local:women-in-math:lulu_bechtolsheim"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Lulu Bechtolsheim",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1989,
+        "birthplace": "New York City, USA",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q42860908",
+      "entity_ids": [
+        "local:women-in-math:marion_elizabeth_stark"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Marion Elizabeth Stark",
+      "biographical_data": {
+        "birth_year": 1894,
+        "death_year": 1982,
+        "birthplace": "Norwich, Connecticut",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q18386636",
+      "entity_ids": [
+        "local:women-in-math:susan_miller_rambo"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Susan Miller Rambo",
+      "biographical_data": {
+        "birth_year": 1883,
+        "death_year": 1977,
+        "birthplace": "Easton, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q90401394",
+      "entity_ids": [
+        "local:women-in-math:marion_ballantyne_white"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Marion Ballantyne White",
+      "biographical_data": {
+        "birth_year": 1871,
+        "death_year": 1958,
+        "birthplace": "Peoria, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:alta_harriet_odoms_gray",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Alta Harriet Odoms Gray",
+      "biographical_data": {
+        "birth_year": 1910,
+        "death_year": 2001,
+        "birthplace": "Fredonia, Indiana",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mary_evelyn_wells",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mary Evelyn Wells",
+      "biographical_data": {
+        "birth_year": 1881,
+        "death_year": 1965,
+        "birthplace": "LeRaysville, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q7087160",
+      "entity_ids": [
+        "local:women-in-math:olive_clio_hazlett"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Olive Clio Hazlett",
+      "biographical_data": {
+        "birth_year": 1890,
+        "death_year": 1974,
+        "birthplace": "Cincinnati, Ohio",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mary_shore_hull",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mary Shore Hull",
+      "biographical_data": {
+        "birth_year": 1882,
+        "death_year": 1952,
+        "birthplace": "Wentzville, Missouri",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:elizabeth_baxter",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Elizabeth Baxter",
+      "biographical_data": {
+        "birth_year": 1906,
+        "death_year": 1966,
+        "birthplace": "Ann Arbor, Michigan",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q9616386",
+      "entity_ids": [
+        "local:women-in-math:anne_lucy_bosworth_focke"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Anne Lucy Bosworth Focke",
+      "biographical_data": {
+        "birth_year": 1868,
+        "death_year": 1907,
+        "birthplace": "Woonsocket, Rhode Island",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q121496",
+      "entity_ids": [
+        "local:women-in-math:anna_johnson_pell_wheeler"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Anna Johnson Pell Wheeler",
+      "biographical_data": {
+        "birth_year": 1883,
+        "death_year": 1966,
+        "birthplace": "Calliope (now Hawarden), Iowa",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:constance_juliet_ballantine",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Constance Juliet Ballantine",
+      "biographical_data": {
+        "birth_year": 1896,
+        "death_year": 1974,
+        "birthplace": "Lincoln, Nebraska",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q37733125",
+      "entity_ids": [
+        "local:women-in-math:anna_adelaide_stafford_henriques"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Anna Adelaide Stafford Henriques",
+      "biographical_data": {
+        "birth_year": 1905,
+        "death_year": 2004,
+        "birthplace": "Chicago, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:marjorie_louise_beaty_heckel",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Marjorie Louise Beaty (Heckel)",
+      "biographical_data": {
+        "birth_year": 1906,
+        "death_year": 2002,
+        "birthplace": "Buffalo, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:deborah_may_hickey_maria",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Deborah May Hickey Maria",
+      "biographical_data": {
+        "birth_year": 1904,
+        "death_year": 2001,
+        "birthplace": "Lumberton, Mississippi",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:evelyn_prescott_wiggin_casner",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Evelyn Prescott Wiggin Casner",
+      "biographical_data": {
+        "birth_year": 1900,
+        "death_year": 1964,
+        "birthplace": "Stratham, New Hampshire",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102194482",
+      "entity_ids": [
+        "local:women-in-math:ethel_louise_anderton"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Ethel Louise Anderton",
+      "biographical_data": {
+        "birth_year": 1888,
+        "death_year": 1971,
+        "birthplace": "Dover, New Hampshire",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:caroline_avery_lester",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Caroline Avery Lester",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1996,
+        "birthplace": "Seneca Falls, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q59240359",
+      "entity_ids": [
+        "local:women-in-math:gillie_aldah_larew"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Gillie Aldah Larew",
+      "biographical_data": {
+        "birth_year": 1882,
+        "death_year": 1977,
+        "birthplace": "Near Newbern, Pulaski County, Virginia",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q42899336",
+      "entity_ids": [
+        "local:women-in-math:frances_harshbarger"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Frances Harshbarger",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1987,
+        "birthplace": "Quimby, Iowa",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:madeline_early_levin",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Madeline Early (Levin)",
+      "biographical_data": {
+        "birth_year": 1912,
+        "death_year": 2001,
+        "birthplace": "Brooklyn, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:ida_martha_metcalf",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Ida Martha Metcalf",
+      "biographical_data": {
+        "birth_year": 1856,
+        "death_year": 1952,
+        "birthplace": "Texas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mildred_marie_sullivan",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mildred Marie Sullivan",
+      "biographical_data": {
+        "birth_year": 1907,
+        "death_year": 1958,
+        "birthplace": "Boston, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q93099666",
+      "entity_ids": [
+        "local:women-in-math:aline_huke_frink"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Aline Huke Frink",
+      "biographical_data": {
+        "birth_year": 1904,
+        "death_year": 2000,
+        "birthplace": "Torrington, Connecticut",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:virginia_modesitt_reklis",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Virginia Modesitt Reklis",
+      "biographical_data": {
+        "birth_year": 1910,
+        "death_year": 2000,
+        "birthplace": "Bloomington, Indiana",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102158243",
+      "entity_ids": [
+        "local:women-in-math:anna_lavinia_van_benschoten"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Anna Lavinia Van Benschoten",
+      "biographical_data": {
+        "birth_year": 1866,
+        "death_year": 1927,
+        "birthplace": "Elmira, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:andrewa_rebecca_noble",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Andrewa Rebecca Noble",
+      "biographical_data": {
+        "birth_year": 1908,
+        "death_year": 1993,
+        "birthplace": "Oregon City, Oregon",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q17006460",
+      "entity_ids": [
+        "local:women-in-math:emilie_norton_martin"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Emilie Norton Martin",
+      "biographical_data": {
+        "birth_year": 1869,
+        "death_year": 1936,
+        "birthplace": "Elizabeth, New Jersey",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q95223463",
+      "entity_ids": [
+        "local:women-in-math:eugenie_maria_morenus"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Eugenie Maria Morenus",
+      "biographical_data": {
+        "birth_year": 1881,
+        "death_year": 1966,
+        "birthplace": "Cleveland, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q8025385",
+      "entity_ids": [
+        "local:women-in-math:winifred_haring_edgerton_merrill"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Winifred Haring Edgerton Merrill",
+      "biographical_data": {
+        "birth_year": 1862,
+        "death_year": 1951,
+        "birthplace": "Ripon, Wisconsin",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:christine_ladd-franklin",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Christine Ladd-Franklin",
+      "biographical_data": {
+        "birth_year": 1847,
+        "death_year": 1930,
+        "birthplace": "Windsor, Connecticut",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:goldie_printis_horton_porter",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Goldie Printis Horton Porter",
+      "biographical_data": {
+        "birth_year": 1887,
+        "death_year": 1972,
+        "birthplace": "Athens, Texas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q97290218",
+      "entity_ids": [
+        "local:women-in-math:fay_farnum"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Fay Farnum",
+      "biographical_data": {
+        "birth_year": 1888,
+        "death_year": 1977,
+        "birthplace": "Spencer, Iowa",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:dora_mcfarland",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Dora McFarland",
+      "biographical_data": {
+        "birth_year": 1895,
+        "death_year": 1987,
+        "birthplace": "near Aledo, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q541619",
+      "entity_ids": [
+        "local:women-in-math:mina_spiegel_rees"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Mina Spiegel Rees",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1997,
+        "birthplace": "Cleveland, Ohio",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:elizabeth_audrey_wishard_mcmillan",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Elizabeth Audrey Wishard McMillan",
+      "biographical_data": {
+        "birth_year": 1914,
+        "death_year": 2008,
+        "birthplace": "Jubbulpore, India",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q28648726",
+      "entity_ids": [
+        "local:women-in-math:may_margaret_beenken"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "May Margaret Beenken",
+      "biographical_data": {
+        "birth_year": 1901,
+        "death_year": 1988,
+        "birthplace": "Philadelphia, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102156887",
+      "entity_ids": [
+        "local:women-in-math:helen_barton"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Helen Barton",
+      "biographical_data": {
+        "birth_year": 1891,
+        "death_year": 1971,
+        "birthplace": "Baltimore, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:harriet_frances_montague",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Harriet Frances Montague",
+      "biographical_data": {
+        "birth_year": 1905,
+        "death_year": 1997,
+        "birthplace": "Buffalo, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102198350",
+      "entity_ids": [
+        "local:women-in-math:ruth_wyckliffe_stokes"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Ruth Wyckliffe Stokes",
+      "biographical_data": {
+        "birth_year": 1890,
+        "death_year": 1968,
+        "birthplace": "Greenville, South Carolina",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q45094204",
+      "entity_ids": [
+        "local:women-in-math:euphemia_richardson_worthington"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Euphemia Richardson Worthington",
+      "biographical_data": {
+        "birth_year": 1881,
+        "death_year": 1969,
+        "birthplace": "Troy, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:anna_marie_whelan",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Anna Marie Whelan",
+      "biographical_data": {
+        "birth_year": 1895,
+        "death_year": 1966,
+        "birthplace": "Baltimore, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q44386959",
+      "entity_ids": [
+        "local:women-in-math:bessie_irving_miller"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Bessie Irving Miller",
+      "biographical_data": {
+        "birth_year": 1884,
+        "death_year": 1931,
+        "birthplace": "Baltimore, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102155128",
+      "entity_ids": [
+        "local:women-in-math:mary_gertrude_haseman"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Mary Gertrude Haseman",
+      "biographical_data": {
+        "birth_year": 1889,
+        "death_year": 1979,
+        "birthplace": "Linton, Indiana",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:henrietta_pearl_terry_nee",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Henrietta Pearl Terry Nee",
+      "biographical_data": {
+        "birth_year": 1904,
+        "death_year": 1981,
+        "birthplace": "Virden, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:ruth_beatrice_rasmusen",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Ruth Beatrice Rasmusen",
+      "biographical_data": {
+        "birth_year": 1899,
+        "death_year": 1974,
+        "birthplace": "Moorhead, Minnesota",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:carolyn_grace_shover_quinn",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Carolyn Grace Shover Quinn",
+      "biographical_data": {
+        "birth_year": 1906,
+        "death_year": 1998,
+        "birthplace": "Grove City, Ohio",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102187339",
+      "entity_ids": [
+        "local:women-in-math:harriet_madeline_griffin"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Harriet Madeline Griffin",
+      "biographical_data": {
+        "birth_year": 1903,
+        "death_year": 1991,
+        "birthplace": "Brooklyn, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:anna_marguerite_marie_lehr",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Anna Marguerite Marie Lehr",
+      "biographical_data": {
+        "birth_year": 1898,
+        "death_year": 1987,
+        "birthplace": "Baltimore, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:ellen_clayton_stokes",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Ellen Clayton Stokes",
+      "biographical_data": {
+        "birth_year": 1900,
+        "death_year": 1974,
+        "birthplace": "Hackensack, New Jersey",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mary_helen_sagal_sznyter",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mary Helen Sagal (Sznyter)",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1975,
+        "birthplace": "Woodhaven, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:marjorie_leffler_alden",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Marjorie Leffler Alden",
+      "biographical_data": {
+        "birth_year": 1909,
+        "death_year": 2000,
+        "birthplace": "Kyle, Ohio",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:elizabeth_e_mary_karl",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Elizabeth E. Mary Karl",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1984,
+        "birthplace": "New York City",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:marie_mathilda_yeaton",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Marie Mathilda Yeaton",
+      "biographical_data": {
+        "birth_year": 1898,
+        "death_year": 1978,
+        "birthplace": "Galesburg, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:helen_gertrude_russell",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Helen Gertrude Russell",
+      "biographical_data": {
+        "birth_year": 1901,
+        "death_year": 1968,
+        "birthplace": "Gorham, Maine",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q22915111",
+      "entity_ids": [
+        "local:women-in-math:ruth_ellen_gentry"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Ruth Ellen Gentry",
+      "biographical_data": {
+        "birth_year": 1862,
+        "death_year": 1917,
+        "birthplace": "Stilesville, Indiana",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q5460698",
+      "entity_ids": [
+        "local:women-in-math:florence_marie_mears"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Florence Marie Mears",
+      "biographical_data": {
+        "birth_year": 1896,
+        "death_year": 1995,
+        "birthplace": "Baltimore, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q91111344",
+      "entity_ids": [
+        "local:women-in-math:sister_marie_cecilia_mangold"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Sister Marie Cecilia Mangold",
+      "biographical_data": {
+        "birth_year": 1872,
+        "death_year": 1934,
+        "birthplace": "Cincinnati, Ohio",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q57418951",
+      "entity_ids": [
+        "local:women-in-math:clara_latimer_bacon"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Clara Latimer Bacon",
+      "biographical_data": {
+        "birth_year": 1866,
+        "death_year": 1948,
+        "birthplace": "Hillsgrove, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q43301941",
+      "entity_ids": [
+        "local:women-in-math:sally_elizabeth_carlson"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Sally Elizabeth Carlson",
+      "biographical_data": {
+        "birth_year": 1896,
+        "death_year": 2000,
+        "birthplace": "Minneapolis, Minnesota",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:jeanette_delevie_fox",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Jeanette Delevie (Fox)",
+      "biographical_data": {
+        "birth_year": 1912,
+        "death_year": 1997,
+        "birthplace": "New York, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:elsie_jeannette_mcfarland_buck",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Elsie Jeannette McFarland Buck",
+      "biographical_data": {
+        "birth_year": 1897,
+        "death_year": 1984,
+        "birthplace": "St. Louis, Missouri",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:rachel_adams_blodgett",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Rachel Adams (Blodgett)",
+      "biographical_data": {
+        "birth_year": 1894,
+        "death_year": 1982,
+        "birthplace": "Woburn, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q93243390",
+      "entity_ids": [
+        "local:women-in-math:cleota_gage_fry"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Cleota Gage Fry",
+      "biographical_data": {
+        "birth_year": 1910,
+        "death_year": 2001,
+        "birthplace": "Shoshone, Idaho",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:ida_barney",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Ida Barney",
+      "biographical_data": {
+        "birth_year": 1886,
+        "death_year": 1982,
+        "birthplace": "New Haven, Connecticut",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q44840598",
+      "entity_ids": [
+        "local:women-in-math:clara_eliza_smith"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Clara Eliza Smith",
+      "biographical_data": {
+        "birth_year": 1865,
+        "death_year": 1943,
+        "birthplace": "Northford, Connecticut",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102198425",
+      "entity_ids": [
+        "local:women-in-math:nancy_cole"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Nancy Cole",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1991,
+        "birthplace": "Boston, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q94739648",
+      "entity_ids": [
+        "local:women-in-math:joanna_isabel_mayer"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Joanna Isabel Mayer",
+      "biographical_data": {
+        "birth_year": 1904,
+        "death_year": 1991,
+        "birthplace": "Pettis County, near Sedalia, Missouri",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mildred_caroline_somerset_waters_dean",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mildred Caroline Somerset Waters Dean",
+      "biographical_data": {
+        "birth_year": 1904,
+        "death_year": 1981,
+        "birthplace": "Baltimore, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q69870030",
+      "entity_ids": [
+        "local:women-in-math:bird_margaret_turner"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Bird Margaret Turner",
+      "biographical_data": {
+        "birth_year": 1877,
+        "death_year": 1962,
+        "birthplace": "Moundsville, West Virginia",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:alice_madeleine_dimick",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Alice Madeleine Dimick",
+      "biographical_data": {
+        "birth_year": 1878,
+        "death_year": 1956,
+        "birthplace": "Washington, D.C.",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:jewell_constance_hughes_bushey",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Jewell Constance Hughes Bushey",
+      "biographical_data": {
+        "birth_year": 1896,
+        "death_year": 1989,
+        "birthplace": "Fayetteville, Arkansas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:eula_adeline_weeks_king",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Eula Adeline Weeks King",
+      "biographical_data": {
+        "birth_year": 1882,
+        "death_year": 1967,
+        "birthplace": "near Louisville, Georgia",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102149711",
+      "entity_ids": [
+        "local:women-in-math:marguerite_daisy_darkow"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Marguerite Daisy Darkow",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1992,
+        "birthplace": "Philadelphia, United States",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102198615",
+      "entity_ids": [
+        "local:women-in-math:sara_louise_nelson"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Sara Louise Nelson",
+      "biographical_data": {
+        "birth_year": 1903,
+        "death_year": 1995,
+        "birthplace": "Oglethorpe, Georgia",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mabel_jeanette_griffin_reavis",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mabel Jeanette Griffin Reavis",
+      "biographical_data": {
+        "birth_year": 1907,
+        "death_year": 1999,
+        "birthplace": "Durham, North Carolina",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q94265769",
+      "entity_ids": [
+        "local:women-in-math:anna_mayme_howe"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Anna Mayme Howe",
+      "biographical_data": {
+        "birth_year": 1883,
+        "death_year": 1976,
+        "birthplace": "Jordan, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q42657639",
+      "entity_ids": [
+        "local:women-in-math:ruby_usher_hightower"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Ruby Usher Hightower",
+      "biographical_data": {
+        "birth_year": 1880,
+        "death_year": 1959,
+        "birthplace": "near Covington, Georgia",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q39275187",
+      "entity_ids": [
+        "local:women-in-math:lennie_phoebe_copeland"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Lennie Phoebe Copeland",
+      "biographical_data": {
+        "birth_year": 1881,
+        "death_year": 1951,
+        "birthplace": "Brewer, Maine",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:myrtie_collier",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Myrtie Collier",
+      "biographical_data": {
+        "birth_year": 1877,
+        "death_year": 1974,
+        "birthplace": "Carthage, Missouri",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q42798793",
+      "entity_ids": [
+        "local:women-in-math:laura_guggenbuhl"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Laura Guggenbuhl",
+      "biographical_data": {
+        "birth_year": 1901,
+        "death_year": 1985,
+        "birthplace": "New York City, New York, USA",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:marian_marsh_torrey",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Marian Marsh Torrey",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1971,
+        "birthplace": "Malden, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q28648882",
+      "entity_ids": [
+        "local:women-in-math:josephine_elizabeth_burns_glasgow"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Josephine Elizabeth Burns Glasgow",
+      "biographical_data": {
+        "birth_year": 1887,
+        "death_year": 1969,
+        "birthplace": "Greenville, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:jessie_marie_offermann_jacobs",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Jessie Marie Offermann (Jacobs)",
+      "biographical_data": {
+        "birth_year": 1890,
+        "death_year": 1954,
+        "birthplace": "Wilmington, Delaware",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102194453",
+      "entity_ids": [
+        "local:women-in-math:julia_trueman_colpitts"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Julia Trueman Colpitts",
+      "biographical_data": {
+        "birth_year": 1875,
+        "death_year": 1936,
+        "birthplace": "Pointe de Bute, New Brunswick, Canada",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mae_ruth_anderson",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mae Ruth Anderson",
+      "biographical_data": {
+        "birth_year": 1899,
+        "death_year": 1948,
+        "birthplace": "near Westby, Wisconsin",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q89273643",
+      "entity_ids": [
+        "local:women-in-math:louise_adelaide_wolf"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Louise Adelaide Wolf",
+      "biographical_data": {
+        "birth_year": 1898,
+        "death_year": 1962,
+        "birthplace": "Milwaukee, Wisconsin",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:frances_thorndike_cope",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Frances Thorndike Cope",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1982,
+        "birthplace": "New York City, New York, USA",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:emma_kirtland_mcdonald",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Emma Kirtland McDonald",
+      "biographical_data": {
+        "birth_year": 1886,
+        "death_year": 1948,
+        "birthplace": "Brooklyn, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:helen_mary_infeld",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Helen Mary Infeld",
+      "biographical_data": {
+        "birth_year": 1907,
+        "death_year": 1993,
+        "birthplace": "The Bronx, New York City",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:echo_delores_pepper",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Echo Delores Pepper",
+      "biographical_data": {
+        "birth_year": 1897,
+        "death_year": 1979,
+        "birthplace": "Spokane, Washington, USA",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q46847152",
+      "entity_ids": [
+        "local:women-in-math:leona_may_peirce"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Leona May Peirce",
+      "biographical_data": {
+        "birth_year": 1863,
+        "death_year": 1954,
+        "birthplace": "Norway, Maine",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mary_margaret_taylor_speer",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mary Margaret Taylor Speer",
+      "biographical_data": {
+        "birth_year": 1906,
+        "death_year": 1966,
+        "birthplace": "Midway, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:elizabeth_ruth_grennan_bennett",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Elizabeth Ruth Grennan (Bennett)",
+      "biographical_data": {
+        "birth_year": 1880,
+        "death_year": 1972,
+        "birthplace": "Shawnee, Monroe County, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102149791",
+      "entity_ids": [
+        "local:women-in-math:rosa_lea_jackson"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Rosa Lea Jackson",
+      "biographical_data": {
+        "birth_year": 1883,
+        "death_year": 1967,
+        "birthplace": "Ripley, Tennessee",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sister_ann_elizabeth_shea",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sister Ann Elizabeth Shea",
+      "biographical_data": {
+        "birth_year": 1900,
+        "death_year": 1957,
+        "birthplace": "St. Joseph, Missouri",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q2960945",
+      "entity_ids": [
+        "local:women-in-math:charlotte_cynthia_barnum"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Charlotte Cynthia Barnum",
+      "biographical_data": {
+        "birth_year": 1860,
+        "death_year": 1934,
+        "birthplace": "Phillipston, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mary_catherine_varnhorn",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mary Catherine Varnhorn",
+      "biographical_data": {
+        "birth_year": 1914,
+        "death_year": 1988,
+        "birthplace": "Baltimore, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:charlotte_elvira_crathorne",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Charlotte Elvira Crathorne",
+      "biographical_data": {
+        "birth_year": 1875,
+        "death_year": 1916,
+        "birthplace": "Juda, Wisconsin",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q75100276",
+      "entity_ids": [
+        "local:women-in-math:dorothy_mccoy"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Dorothy McCoy",
+      "biographical_data": {
+        "birth_year": 1903,
+        "death_year": 2001,
+        "birthplace": "Waukomis, Oklahoma Territory",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q94989543",
+      "entity_ids": [
+        "local:women-in-math:gertrude_iona_mccain"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Gertrude Iona McCain",
+      "biographical_data": {
+        "birth_year": 1879,
+        "death_year": 1955,
+        "birthplace": "Three Rivers, Michigan",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q42306832",
+      "entity_ids": [
+        "local:women-in-math:cora_barbara_hennel"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Cora Barbara Hennel",
+      "biographical_data": {
+        "birth_year": 1886,
+        "death_year": 1947,
+        "birthplace": "Evansville, Indiana",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sister_leonarda_burke",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sister Leonarda Burke",
+      "biographical_data": {
+        "birth_year": 1900,
+        "death_year": 1998,
+        "birthplace": "Boston, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102167008",
+      "entity_ids": [
+        "local:women-in-math:florence_lucile_black"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Florence Lucile Black",
+      "biographical_data": {
+        "birth_year": 1889,
+        "death_year": 1974,
+        "birthplace": "Meade County, Kansas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sister_catharine_francis_galvin",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sister Catharine Francis Galvin",
+      "biographical_data": {
+        "birth_year": 1885,
+        "death_year": 1955,
+        "birthplace": "Spalding, Nebraska",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102198384",
+      "entity_ids": [
+        "local:women-in-math:helen_calkins"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Helen Calkins",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1970,
+        "birthplace": "Quincy, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:rose_alice_whelan_sedgewick",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Rose Alice Whelan Sedgewick",
+      "biographical_data": {
+        "birth_year": 1903,
+        "death_year": 2000,
+        "birthplace": "Brockton, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q75100252",
+      "entity_ids": [
+        "local:women-in-math:helen_agnes_kelley"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Helen Agnes Kelley",
+      "biographical_data": {
+        "birth_year": 1888,
+        "death_year": 1926,
+        "birthplace": "Roxbury, Boston, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q2063822",
+      "entity_ids": [
+        "local:women-in-math:pauline_sperry"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Pauline Sperry",
+      "biographical_data": {
+        "birth_year": 1885,
+        "death_year": 1967,
+        "birthplace": "Peabody, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q4693117",
+      "entity_ids": [
+        "local:women-in-math:agnes_sime_baxter"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Agnes Sime Baxter",
+      "biographical_data": {
+        "birth_year": 1870,
+        "death_year": 1917,
+        "birthplace": "Halifax, Nova Scotia, Canada",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sister_mary_laetitia_hill",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sister Mary Laetitia Hill",
+      "biographical_data": {
+        "birth_year": 1898,
+        "death_year": 1992,
+        "birthplace": "Koerth, Texas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:evelyn_carroll_rusk",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Evelyn Carroll Rusk",
+      "biographical_data": {
+        "birth_year": 1898,
+        "death_year": 1964,
+        "birthplace": "Rome, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:ruth_margaret_peters",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Ruth Margaret Peters",
+      "biographical_data": {
+        "birth_year": 1906,
+        "death_year": 1961,
+        "birthplace": "Gettysburg, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sister_m_helen_sullivan",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sister M. Helen Sullivan",
+      "biographical_data": {
+        "birth_year": 1907,
+        "death_year": 1998,
+        "birthplace": "Effingham, Kansas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mildred_ellen_taylor",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mildred Ellen Taylor",
+      "biographical_data": {
+        "birth_year": 1898,
+        "death_year": 1978,
+        "birthplace": "Virginia, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q27178177",
+      "entity_ids": [
+        "local:women-in-math:lois_wilfred_griffiths"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Lois Wilfred Griffiths",
+      "biographical_data": {
+        "birth_year": 1899,
+        "death_year": 1981,
+        "birthplace": "Chagrin Falls, Ohio",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:marion_belle_greenebaum_epstein",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Marion Belle Greenebaum Epstein",
+      "biographical_data": {
+        "birth_year": 1915,
+        "death_year": null,
+        "birthplace": "Brooklyn, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:vivian_eberle_spencer",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Vivian Eberle Spencer",
+      "biographical_data": {
+        "birth_year": 1907,
+        "death_year": 1980,
+        "birthplace": "New Castle, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q94729849",
+      "entity_ids": [
+        "local:women-in-math:margaret_evelyn_mauch"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Margaret Evelyn Mauch",
+      "biographical_data": {
+        "birth_year": 1897,
+        "death_year": 1987,
+        "birthplace": "De Smet, South Dakota",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:marian_augusta_wilder_thornton",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Marian Augusta Wilder Thornton",
+      "biographical_data": {
+        "birth_year": 1905,
+        "death_year": 1992,
+        "birthplace": "Shakopee, Minnesota",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q18708337",
+      "entity_ids": [
+        "local:women-in-math:dorothy_walcott_weeks"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Dorothy Walcott Weeks",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1990,
+        "birthplace": "Philadelphia, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:ruth_gertrude_simond",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Ruth Gertrude Simond",
+      "biographical_data": {
+        "birth_year": 1904,
+        "death_year": 1958,
+        "birthplace": "Franklin, New Hampshire",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:ruth_caroline_mckee_stauffer",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Ruth Caroline McKee (Stauffer)",
+      "biographical_data": {
+        "birth_year": 1910,
+        "death_year": 1993,
+        "birthplace": "Harrisburg, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q1767452",
+      "entity_ids": [
+        "local:women-in-math:virginia_ragsdale"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Virginia Ragsdale",
+      "biographical_data": {
+        "birth_year": 1870,
+        "death_year": 1945,
+        "birthplace": "Jamestown, North Carolina",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q7702121",
+      "entity_ids": [
+        "local:women-in-math:teresa_cohen"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Teresa Cohen",
+      "biographical_data": {
+        "birth_year": 1892,
+        "death_year": 1992,
+        "birthplace": "Baltimore, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q22018860",
+      "entity_ids": [
+        "local:women-in-math:marie_paula_litzinger"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Marie Paula Litzinger",
+      "biographical_data": {
+        "birth_year": 1899,
+        "death_year": 1952,
+        "birthplace": "Bedford, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sister_mary_henrietta_reilly",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sister Mary Henrietta Reilly",
+      "biographical_data": {
+        "birth_year": 1895,
+        "death_year": 1964,
+        "birthplace": "Chicago, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sister_charles_mary_morrison",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sister Charles Mary Morrison",
+      "biographical_data": {
+        "birth_year": 1895,
+        "death_year": 1953,
+        "birthplace": "Hyde Park, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sister_mary_charlotte_fowler",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sister Mary Charlotte Fowler",
+      "biographical_data": {
+        "birth_year": 1899,
+        "death_year": 1997,
+        "birthplace": "Mechanicsville, Maryland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:ruth_glidden_mason_ballard",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Ruth Glidden Mason Ballard",
+      "biographical_data": {
+        "birth_year": 1906,
+        "death_year": 1980,
+        "birthplace": "Chicago, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q93723011",
+      "entity_ids": [
+        "local:women-in-math:annita_tuller"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Annita Tuller",
+      "biographical_data": {
+        "birth_year": 1910,
+        "death_year": 1994,
+        "birthplace": "Brooklyn, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:mary_barbara_haberzetle_turner",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Mary Barbara Haberzetle Turner",
+      "biographical_data": {
+        "birth_year": 1912,
+        "death_year": 1983,
+        "birthplace": "Chicago, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q37724322",
+      "entity_ids": [
+        "local:women-in-math:eleanor_pairman_brown"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Eleanor Pairman Brown",
+      "biographical_data": {
+        "birth_year": 1896,
+        "death_year": 1973,
+        "birthplace": "Broomieknowe, Lasswade, Midlothian, Scotland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q15999404",
+      "entity_ids": [
+        "local:women-in-math:florence_eliza_allen"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Florence Eliza Allen",
+      "biographical_data": {
+        "birth_year": 1876,
+        "death_year": 1960,
+        "birthplace": "Horicon, Wisconsin",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:helen_barten_brewster_owens",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Helen Barten Brewster Owens",
+      "biographical_data": {
+        "birth_year": 1881,
+        "death_year": 1968,
+        "birthplace": "Pleasanton, Linn County, Kansas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q47471517",
+      "entity_ids": [
+        "local:women-in-math:m_gweneth_humphreys"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "M. Gweneth Humphreys",
+      "biographical_data": {
+        "birth_year": 1911,
+        "death_year": 2006,
+        "birthplace": "South Vancouver, British Columbia",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:emily_matilda_coddington_williams",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Emily Matilda Coddington Williams",
+      "biographical_data": {
+        "birth_year": 1873,
+        "death_year": 1952,
+        "birthplace": "New York City",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q5553285",
+      "entity_ids": [
+        "local:women-in-math:gertrude_blanch"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Gertrude Blanch",
+      "biographical_data": {
+        "birth_year": 1897,
+        "death_year": 1996,
+        "birthplace": "Kolno, Poland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q21607990",
+      "entity_ids": [
+        "local:women-in-math:wealthy_consuelo_babcock"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Wealthy Consuelo Babcock",
+      "biographical_data": {
+        "birth_year": 1895,
+        "death_year": 1990,
+        "birthplace": "Washington County, Kansas",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q75098829",
+      "entity_ids": [
+        "local:women-in-math:elizabeth_morgan_cooper"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Elizabeth Morgan Cooper",
+      "biographical_data": {
+        "birth_year": 1891,
+        "death_year": 1967,
+        "birthplace": "Syracuse, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q75100307",
+      "entity_ids": [
+        "local:women-in-math:mary_emily_sinclair"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Mary Emily Sinclair",
+      "biographical_data": {
+        "birth_year": 1878,
+        "death_year": 1955,
+        "birthplace": "Worcester, Massachusetts",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:shu_ting_liu_hsia",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Shu Ting Liu Hsia",
+      "biographical_data": {
+        "birth_year": 1903,
+        "death_year": 1980,
+        "birthplace": "Beijing, China",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:nola_lee_anderson_haynes",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Nola Lee Anderson Haynes",
+      "biographical_data": {
+        "birth_year": 1897,
+        "death_year": 1996,
+        "birthplace": "Bucklin, Linn County, Missouri",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q5590978",
+      "entity_ids": [
+        "local:women-in-math:grace_andrews"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Grace Andrews",
+      "biographical_data": {
+        "birth_year": 1869,
+        "death_year": 1951,
+        "birthplace": "Brooklyn, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:emma_julia_olson",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Emma Julia Olson",
+      "biographical_data": {
+        "birth_year": 1892,
+        "death_year": 1981,
+        "birthplace": "Fairview, South Dakota",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:annie_dale_andrews_biddle",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Annie Dale Andrews (Biddle)",
+      "biographical_data": {
+        "birth_year": 1885,
+        "death_year": 1940,
+        "birthplace": "Hanford, California",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q21014192",
+      "entity_ids": [
+        "local:women-in-math:louise_duffield_cummings"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Louise Duffield Cummings",
+      "biographical_data": {
+        "birth_year": 1870,
+        "death_year": 1947,
+        "birthplace": "Hamilton, Ontario, Canada",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q14948946",
+      "entity_ids": [
+        "local:women-in-math:marion_cameron_gray"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Marion Cameron Gray",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1979,
+        "birthplace": "Ayr, Scotland",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102150200",
+      "entity_ids": [
+        "local:women-in-math:frances_ellen_baker"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Frances Ellen Baker",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1995,
+        "birthplace": "Anna, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q660571",
+      "entity_ids": [
+        "local:women-in-math:edna_ernestine_kramer"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Edna Ernestine Kramer",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1984,
+        "birthplace": "New York, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q4678279",
+      "entity_ids": [
+        "local:women-in-math:ada_isabel_maddison"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Ada Isabel Maddison",
+      "biographical_data": {
+        "birth_year": 1869,
+        "death_year": 1950,
+        "birthplace": "Whitehaven, Cumberland, England",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q45093689",
+      "entity_ids": [
+        "local:women-in-math:ruth_goulding_wood"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Ruth Goulding Wood",
+      "biographical_data": {
+        "birth_year": 1875,
+        "death_year": 1939,
+        "birthplace": "Central Falls, Rhode Island",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:sister_m_leontius_schulte",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Sister M. Leontius Schulte",
+      "biographical_data": {
+        "birth_year": 1901,
+        "death_year": 2000,
+        "birthplace": "Cleveland, Wisconsin",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:dorothy_bothwell_kohlmetz",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Dorothy Bothwell Kohlmetz",
+      "biographical_data": {
+        "birth_year": 1906,
+        "death_year": 1941,
+        "birthplace": "Albany, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102198394",
+      "entity_ids": [
+        "local:women-in-math:roberta_frances_johnson"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Roberta Frances Johnson",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 1988,
+        "birthplace": "Philadelphia, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q102150313",
+      "entity_ids": [
+        "local:women-in-math:fannie_wilson_boyce"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Fannie Wilson Boyce",
+      "biographical_data": {
+        "birth_year": 1897,
+        "death_year": 1986,
+        "birthplace": "Near Lentner, Shelby County, Missouri",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q94520091",
+      "entity_ids": [
+        "local:women-in-math:adrienne_sophie_rayl"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Adrienne Sophie Rayl",
+      "biographical_data": {
+        "birth_year": 1898,
+        "death_year": 1989,
+        "birthplace": "New Orleans, Louisiana",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q93742739",
+      "entity_ids": [
+        "local:women-in-math:mildred_hunt"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Mildred Hunt",
+      "biographical_data": {
+        "birth_year": 1888,
+        "death_year": 1975,
+        "birthplace": "Fairport, New York",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:rosella_kanarik",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Rosella Kanarik",
+      "biographical_data": {
+        "birth_year": 1909,
+        "death_year": null,
+        "birthplace": "Bartfa, Hungary",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q87401965",
+      "entity_ids": [
+        "local:women-in-math:gladys_elizabeth_corson_gibbens"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Gladys Elizabeth Corson Gibbens",
+      "biographical_data": {
+        "birth_year": 1893,
+        "death_year": 1983,
+        "birthplace": "New Orleans, Louisiana",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q22018863",
+      "entity_ids": [
+        "local:women-in-math:mayme_irwin_logsdon"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Mayme Irwin Logsdon",
+      "biographical_data": {
+        "birth_year": 1881,
+        "death_year": 1967,
+        "birthplace": "Elizabethtown, Kentucky",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:hazel_edith_schoonmaker_wilson",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Hazel Edith Schoonmaker Wilson",
+      "biographical_data": {
+        "birth_year": 1888,
+        "death_year": 1988,
+        "birthplace": "Philadelphia, Pennsylvania",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q25983036",
+      "entity_ids": [
+        "local:women-in-math:beatrice_aitchison"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Beatrice Aitchison",
+      "biographical_data": {
+        "birth_year": 1908,
+        "death_year": 1997,
+        "birthplace": "Portland, Oregon",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q89406785",
+      "entity_ids": [
+        "local:women-in-math:elizabeth_stafford_hirschfelder"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Elizabeth Stafford Hirschfelder",
+      "biographical_data": {
+        "birth_year": 1902,
+        "death_year": 2002,
+        "birthplace": "Providence, Rhode Island",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "wikidata:Q5298509",
+      "entity_ids": [
+        "local:women-in-math:dorothy_l_bernstein"
+      ],
+      "entity_type": "person",
+      "confidence": 0.8,
+      "name": "Dorothy L. Bernstein",
+      "biographical_data": {
+        "birth_year": 1914,
+        "death_year": 1988,
+        "birthplace": "Chicago, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:laura_louise_rosenbaum",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Laura Louise Rosenbaum",
+      "biographical_data": {
+        "birth_year": 1908,
+        "death_year": 1980,
+        "birthplace": "Carrollton, Illinois",
+        "field": "wikidata:Q395"
+      }
+    },
+    {
+      "entity_id": "local:women-in-math:marguerite_lenore_hedberg",
+      "entity_ids": null,
+      "entity_type": "person",
+      "confidence": 0.5,
+      "name": "Marguerite Lenore Hedberg",
+      "biographical_data": {
+        "birth_year": 1907,
+        "death_year": 2002,
+        "birthplace": "Kirksville, Missouri",
+        "field": "wikidata:Q395"
+      }
+    }
+  ]
+}

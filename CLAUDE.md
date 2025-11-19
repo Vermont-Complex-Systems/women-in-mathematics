@@ -46,10 +46,13 @@ export OPENAI_API_KEY="your-key-here"
 # List all assets
 dagster asset list -m women_in_mathematics -a defs
 
-# Materialize entire pipeline (materializes all dependencies)
+# Materialize all assets in the pipeline
+dagster asset materialize -m women_in_mathematics -a defs --select "*"
+
+# Materialize a specific asset and all its dependencies
 dagster asset materialize -m women_in_mathematics -a defs --select join_to_csv
 
-# Materialize a single asset
+# Materialize a single asset only
 dagster asset materialize -m women_in_mathematics -a defs --select split_pdfs
 ```
 
@@ -57,16 +60,21 @@ dagster asset materialize -m women_in_mathematics -a defs --select split_pdfs
 
 ### Dagster Assets Pipeline
 
-The project is now fully migrated to Dagster with a clean asset-based pipeline. All assets are defined in dedicated files in `src/women_in_mathematics/`:
+The project uses Dagster's asset-based pipeline architecture. Assets are organized in nested directories under `src/women_in_mathematics/defs/`:
 
 **Asset Files:**
-- `split_assets.py` - Defines `split_pdfs` asset
-- `extract_assets.py` - Defines `extract_text` asset
-- `parse_assets.py` - Defines `parse_biographies` asset
-- `join_assets.py` - Defines `join_to_csv` asset
+- `defs/split/src/split_assets.py` - Defines `split_pdfs` asset
+- `defs/extract/src/extract_assets.py` - Defines `extract_text` asset (includes `data_exists_check` asset check)
+- `defs/parse/src/parse_assets.py` - Defines `parse_biographies` asset (includes `data_exists_check` asset check)
+- `defs/join/src/join_assets.py` - Defines `join_to_csv` asset
+- `defs/adapter/src/upload_storywrangler.py` - Defines `adapter` asset (not yet implemented)
 
 **Resource Files:**
 - `defs/resources.py` - Defines OpenAI resource using `@dg.definitions` pattern
+
+**Definitions Loading:**
+- `definitions.py` uses `load_from_defs_folder()` which automatically discovers all `@dg.asset` and `@dg.definitions` decorated functions in the `defs/` directory tree
+- This pattern allows modular organization where each stage has its own directory with input/output/src subdirectories
 
 **Pipeline Flow:**
 
@@ -81,6 +89,7 @@ The project is now fully migrated to Dagster with a clean asset-based pipeline. 
    - Input: PDFs from `defs/split/output/`
    - Output: Text files in `defs/extract/output/` as `lastname_firstname.pdf.txt`
    - Requires: `pdfminer.six` package for pdf2txt.py command
+   - Includes asset check to verify all PDFs were converted to text files
 
 3. **parse_biographies** → Uses OpenAI GPT-4o to extract structured biographical data
    - Depends on: `extract_text`
@@ -89,6 +98,8 @@ The project is now fully migrated to Dagster with a clean asset-based pipeline. 
    - Requires: `OPENAI_API_KEY` environment variable
    - Uses `json_repair` to handle malformed JSON responses
    - Temperature set to 0.3 for deterministic outputs
+   - Smart caching: Checks if output JSON files already exist and skips GPT-4 calls to save API costs
+   - Includes asset check to verify all text files were converted to JSON
 
 4. **join_to_csv** → Combines all JSON files into normalized CSV tables
    - Depends on: `parse_biographies`
@@ -100,8 +111,9 @@ The project is now fully migrated to Dagster with a clean asset-based pipeline. 
 
 - **Root Module**: `women_in_mathematics`
 - **Definitions**: Located in `src/women_in_mathematics/definitions.py`
-- **Pattern**: Uses `load_from_defs_folder()` to load resources, then merges with pipeline assets
+- **Pattern**: Uses `load_from_defs_folder()` which automatically discovers all decorated assets and resources in subdirectories
 - **Resources**: OpenAI client configured in `defs/resources.py` with `@dg.definitions` pattern
+- **Asset Checks**: Some assets include `@dg.asset_check` decorators to validate data integrity between pipeline stages
 
 ### Data Schema
 
@@ -125,15 +137,24 @@ The parsed biographical JSON follows this structure:
 ## File Organization
 
 - `src/women_in_mathematics/` - Main package directory
-- `src/women_in_mathematics/definitions.py` - Dagster definitions entry point (merges assets and resources)
-- `src/women_in_mathematics/*_assets.py` - Dagster asset definitions (split, extract, parse, join)
-- `src/women_in_mathematics/defs/` - Data directories for each pipeline stage
+- `src/women_in_mathematics/definitions.py` - Dagster definitions entry point using `load_from_defs_folder()`
+- `src/women_in_mathematics/defs/` - Directory containing all assets, resources, and data
   - `defs/resources.py` - OpenAI resource definition
-  - `defs/split/` - PDF splitting input/output
-  - `defs/extract/` - Text extraction output
-  - `defs/parse/` - JSON parsing output
-  - `defs/join/` - CSV join output
-- Old standalone scripts moved to `*.bak` files (not used in Dagster pipeline)
+  - `defs/split/` - PDF splitting stage
+    - `input/` - Source PDF (PioneeringWomenSupplement.pdf)
+    - `output/` - Individual PDFs per woman
+    - `src/split_assets.py` - Asset definition
+  - `defs/extract/` - Text extraction stage
+    - `output/` - Text files extracted from PDFs
+    - `src/extract_assets.py` - Asset definition with data quality check
+  - `defs/parse/` - Biographical parsing stage
+    - `output/` - Structured JSON files
+    - `src/parse_assets.py` - Asset definition with data quality check
+  - `defs/join/` - CSV normalization stage
+    - `output/` - Final CSV tables (personal, degrees, employment, visits, honors, parents)
+    - `src/join_assets.py` - Asset definition
+  - `defs/adapter/` - Data export stage (future)
+    - `src/upload_storywrangler.py` - Asset definition (not yet implemented)
 
 ## Important Notes
 
@@ -153,9 +174,11 @@ The parsed biographical JSON follows this structure:
 - `OPENAI_API_KEY` - Required for the parse_biographies asset to call GPT-4o
 
 ### Technical Details
-- The project uses `pyprojroot.here()` for cross-platform path resolution
+- The project uses `pyprojroot.here()` for cross-platform path resolution relative to project root
 - The split stage skips pages before page 6 and single-character titles (metadata pages)
 - Name formatting normalizes to lowercase `lastname_firstname` pattern
 - The parse stage uses `json_repair` to handle malformed JSON responses from GPT-4o
 - Temperature is set to 0.3 for more deterministic LLM outputs
-- Old standalone Python scripts (.py.bak files) are kept for reference but not used in the pipeline
+- The parse stage implements file-level caching by checking if output JSON already exists before making GPT-4 API calls
+- Asset checks validate data consistency between pipeline stages (e.g., ensuring no files are lost during conversion)
+- The source PDF comes from Internet Archive: https://web.archive.org/web/20150608005556/http://www.ams.org/publications/authors/books/postpub/hmath-34-PioneeringWomen.pdf

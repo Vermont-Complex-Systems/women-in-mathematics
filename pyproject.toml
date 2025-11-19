@@ -1,6 +1,6 @@
 [project]
 name = "women_in_mathematics"
-requires-python = ">=3.10,<3.14"
+requires-python = ">=3.11"  
 version = "0.1.0"
 dependencies = [
     "dagster==1.12.2",
@@ -14,6 +14,7 @@ dependencies = [
     "pypdf2>=3.0.1",
     "pyprojroot>=0.3.0",
     "seaborn>=0.13.2",
+    "storywrangler-sdk",
     "zodiac-sign>=0.2.5",
 ]
 
@@ -38,5 +39,8 @@ root_module = "women_in_mathematics"
 registry_modules = [
     "women_in_mathematics.components.*",
 ]
+
+[tool.uv.sources]
+storywrangler-sdk = { path = "../storywrangler/packages/sdk" }
 
 
